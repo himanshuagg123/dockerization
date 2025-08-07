@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.mo
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MyPy, Pytest, Coverage
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Pycharm
+.idea/
